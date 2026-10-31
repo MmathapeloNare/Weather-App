@@ -1,0 +1,43 @@
+.day-container {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 75%;
+    padding: 1rem;
+}
+
+.day-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    color: #f1f1f1;
+    font-size: 0.95rem;
+}
+
+.day-label {
+    flex: 2;
+}
+
+.day-rain,
+.day-temp{
+    flex: 1;
+    text-align: center;
+}
+
+.day-condition{
+    display: flex;
+    align-items:center;
+    flex: 1;
+    gap: 0.5rem;
+}
+.day-icon {
+    width: 30px;
+    height: 30px;
+}
+.day-text{
+    font-size: 0.85rem;
+}
